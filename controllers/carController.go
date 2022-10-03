@@ -121,11 +121,11 @@ func DeleteCar(ctx *gin.Context) {
 }
 
 func GetAllCar(ctx *gin.Context) {
-	var carData = []Car{}
+	var All_Car = []Car{}
 
-	carData = CarDatas
+	All_Car = CarDatas
 
 	ctx.JSON(http.StatusOK, gin.H{
-		"cars": carData,
+		"cars": All_Car,
 	})
 }
