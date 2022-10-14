@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"tugas1/controllers"
+	"sesi-06-tugas/controllers"
 
 	"github.com/gin-gonic/gin"
 )

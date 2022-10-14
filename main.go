@@ -1,6 +1,6 @@
 package main
 
-import "tugas1/routers"
+import "sesi-06-tugas/routers"
 
 func main() {
 	var PORT = ":8080"
